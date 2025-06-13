@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
     background-attachment: fixed;
-    backdrop-filter: blur(10px);
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
@@ -49,8 +48,9 @@ body {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+    backdrop-filter: blur(10px);
     margin: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -80,7 +80,7 @@ body {
 /* About Section */
 .about {
     padding: 40px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -142,7 +142,7 @@ body {
 .cards {
     padding: 50px 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -163,7 +163,7 @@ body {
 }
 
 .card {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(230, 230, 250, 0.8));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(230, 230, 250, 0.8));
     backdrop-filter: blur(8px);
     padding: 20px;
     border-radius: 15px;
